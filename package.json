@@ -1,0 +1,21 @@
+{
+  "name": "genai-chat",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "dist/chat.js",
+  "scripts": {
+    "start": "tsx src/chat.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ollama": "^0.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.6.2",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
